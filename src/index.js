@@ -60,6 +60,7 @@ class Game extends React.Component {
       }],
       stepNumber: 0,
       xIsNext: true,
+      sortAscd: true,
     };
   }
 
@@ -90,10 +91,12 @@ class Game extends React.Component {
 
   render() {
     const history = this.state.history;
+    const historyForMoves = this.state.sortAscd ? this.state.history.slice(0) : this.state.history.slice(0).reverse();
     const current = history[this.state.stepNumber];
     const winner = calculateWinner(current.squares);
 
-    const moves = history.map((step, move) => {
+    const moves = historyForMoves.map((step, move) => {
+      move = (this.state.sortAscd ? move : history.length-1-move);
       const desc = move ?
         'Go to move #' + move :
         'Go to game start';
@@ -127,6 +130,12 @@ class Game extends React.Component {
         </div>
         <div className="game-info">
           <div>{status}</div>
+          <div className="sort-btn">
+            <span>Sort: </span>
+            <button onClick={() => this.setState({sortAscd: !this.state.sortAscd})}>
+              {this.state.sortAscd ? '오름차순' : '내림차순'}
+            </button>
+          </div>
           <ol>{moves}</ol>
         </div>
       </div>

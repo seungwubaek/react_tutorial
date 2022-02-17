@@ -49,6 +49,10 @@ body {
     margin-left: 20px;
   }
 
-  .game-info span {
+  .game-info div.sort-btn {
+    margin-top: 15px;
+  }
+
+  .game-info ol span {
     margin-left: 10px;
   }
