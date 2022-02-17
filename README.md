@@ -11,7 +11,7 @@ React 공식 튜토리얼(<https://ko.reactjs.org/tutorial/tutorial.html>) 따�
 - [x] 이동 목록에서 현재 선택된 아이템을 굵게 표시해주세요. (Commit [de56700](https://github.com/seungwubaek/react_tutorial/commit/de567009339241c1d0c97472158afad81491be27))
 - [x] 사각형들을 만들 때 하드코딩 대신에 두 개의 반복문을 사용하도록 Board를 다시 작성해주세요. (Commit [9020a49](https://github.com/seungwubaek/react_tutorial/commit/9020a492eae748fe4154cc12743bcb708265682e))
 - [x] 오름차순이나 내림차순으로 이동을 정렬하도록 토글 버튼을 추가해주세요. (Commit [a5f4c3f](https://github.com/seungwubaek/react_tutorial/commit/a5f4c3f96830cadcbc1ea403db7f8f52506d86ca))
-- [ ] 승자가 정해지면 승부의 원인이 된 세 개의 사각형을 강조해주세요.
+- [x] 승자가 정해지면 승부의 원인이 된 세 개의 사각형을 강조해주세요. (Commit [b0d5be5](https://github.com/seungwubaek/react_tutorial/commit/b0d5be53fa14e505b4fa83c97850f5adf2e60f1e))
 - [ ] 승자가 없는 경우 무승부라는 메시지를 표시해주세요.
 
 # Getting Started with Create React App
