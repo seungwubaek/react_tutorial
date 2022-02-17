@@ -9,7 +9,7 @@ React 공식 튜토리얼(<https://ko.reactjs.org/tutorial/tutorial.html>) 따�
 
 - [x] 이동 기록 목록에서 특정 형식(행, 열)으로 각 이동의 위치를 표시해주세요. (Commit [08fb64b](https://github.com/seungwubaek/react_tutorial/commit/08fb64b97118e26a321e05339bf82d65bcf745fb))
 - [x] 이동 목록에서 현재 선택된 아이템을 굵게 표시해주세요. (Commit [de56700](https://github.com/seungwubaek/react_tutorial/commit/de567009339241c1d0c97472158afad81491be27))
-- [ ] 사각형들을 만들 때 하드코딩 대신에 두 개의 반복문을 사용하도록 Board를 다시 작성해주세요.
+- [x] 사각형들을 만들 때 하드코딩 대신에 두 개의 반복문을 사용하도록 Board를 다시 작성해주세요. (Commit [9020a49](https://github.com/seungwubaek/react_tutorial/commit/9020a492eae748fe4154cc12743bcb708265682e))
 - [ ] 오름차순이나 내림차순으로 이동을 정렬하도록 토글 버튼을 추가해주세요.
 - [ ] 승자가 정해지면 승부의 원인이 된 세 개의 사각형을 강조해주세요.
 - [ ] 승자가 없는 경우 무승부라는 메시지를 표시해주세요.
