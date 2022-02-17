@@ -36,6 +36,10 @@ body {
     outline: none;
   }
 
+  .square.win {
+    border: 2px solid rgb(255, 0, 0);
+  }
+
   .kbd-navigation .square:focus {
     background: #ddd;
   }
